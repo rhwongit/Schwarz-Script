@@ -1,3 +1,5 @@
+                                                                            **BOT INFO**
+
 1 Default Prefix "?"
 
 2 Add your custom bot's token in "TOKEN = "YOUR BOT TOKEN" "
