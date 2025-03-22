@@ -1,4 +1,4 @@
-                                                                            **BOT INFO**
+                                                            **BOT INFO**
 
 1 Default Prefix "?"
 
