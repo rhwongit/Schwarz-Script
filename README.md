@@ -1,6 +1,6 @@
 *-IMPORTANT NOTE-*
 
-"**Updated file "bot user (slash cmd).py" supports Hybrid commands. Means it supports both slash and prefix commands if you wish for Hybrid version of the bot download the script bot user (slash cmd)**"
+"**Updated file "bot user (slash cmd).py" supports Hybrid commands. Means it supports both slash and prefix commands if you wish for Hybrid version of the bot download the script "bot user (slash cmd)**"
 
 **-BOT INFO-**
 
