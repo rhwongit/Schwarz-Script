@@ -1,6 +1,6 @@
 **-BOT INFO-** 
 
-**Updated file supports hybrid commands. Means it supports both slash and prefix commands if you wish for hybrid version of the bot download the script (bot user(slash cmd)**
+**Updated file supports hybrid commands. Means it supports both slash and prefix commands if you wish for hybrid version of the bot download the script bot user (slash cmd)**
 
 1 **Default Prefix "?"**
 
