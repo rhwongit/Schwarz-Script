@@ -1,41 +1,75 @@
-*-IMPORTANT NOTE-*
+<h1 align="center">🤖 SchwarzBot - Hybrid Discord Bot</h1>
+<p align="center">
+  A feature-rich moderation & fun Discord bot supporting both <strong>prefix</strong> and <strong>slash</strong> commands!
+</p>
 
-"**Updated file "bot user (slash cmd).py" supports Hybrid commands. Means it supports both slash and prefix commands if you wish for Hybrid version of the bot download the script "bot user (slash cmd)**"
+---
 
-**-BOT INFO-**
+## ⚠️ IMPORTANT NOTE
 
-1 **Default Prefix "?"**
+📁 **Updated Script:** `bot user (slash cmd).py`  
+✅ Now supports **Hybrid Commands**: Works with both `?prefix` and `/slash` style commands.  
+📥 **Download this version** if you want the enhanced hybrid functionality.
 
-2 **Add your custom bot's token in "TOKEN = "YOUR BOT TOKEN" "**
+---
 
-3 **If you want logs for moderation commands appearing in your specific channel just put the channel id in "LOG_CHANNEL_ID = "1234567890123456789" "**
+## 📚 BOT SETUP GUIDE
 
-4 **Use ?testlog to test the logs are working or not**
+### 🔧 Basic Configuration
 
-5 **Place your jokes in "setup"(if needed)**
+```python
+# Add your bot token here
+TOKEN = "YOUR_BOT_TOKEN"
 
-6 **Place your punchline in "punchline"(if needed)**
+# Set your moderation logs channel ID
+LOG_CHANNEL_ID = 123456789012345678
+```
 
-7 **Want the bot to respond to certain messages? Place your message in  "if content == "PLACE MESSAGE HERE" "**
+### 🔍 Log Testing
+Use the command below to test log output:
+```
+?testlog
+```
 
-8 **And place the responce as you wish in "await message.reply("PLACE YOUR RESPONSE HERE", mention_author=False) "**
+---
 
-9 **To ban a user ?ban <user> [reason] or /ban <user> [reason]**
+## 🎭 Custom Responses
 
-10 **To kick a user ?kick <user> [reason] or /kick <user> [reason]**
+Make your bot reply to specific messages:
 
-11 **To mute a user ?mute <user> <duration> [unit] [reason] or /mute <user> <duration> [reason]**
+```python
+if content == "PLACE YOUR MESSAGE HERE":
+    await message.reply("PLACE YOUR RESPONSE HERE", mention_author=False)
+```
 
-12 **Units: minutes, hours, days, weeks, months"**
+### 🎤 Jokes & Punchlines
+- Add jokes in the `setup` list or section.
+- Add punchlines in the `punchline` list or section.
 
-13 **To unmute a user ?unmute or /unmute**
+---
 
-14 **To warn a user ?warn <user> [reason] or /warn <user> [reason]**
+## 🛠️ MODERATION COMMANDS
 
-15 **To clear specified num of messages - Usage: ?clear <number> or /ping <number>**
+| 🧾 Action        | 🔤 Prefix Command           | 💬 Slash Command        |
+|------------------|-----------------------------|--------------------------|
+| Ban User         | `?ban [reason]`             | `/ban [reason]`          |
+| Kick User        | `?kick [reason]`            | `/kick [reason]`         |
+| Mute User        | `?mute [unit] [reason]`     | `/mute [reason]`         |
+| Unmute User      | `?unmute`                   | `/unmute`                |
+| Warn User        | `?warn [reason]`            | `/warn [reason]`         |
+| Clear Messages   | `?clear [amount]`           | `/clear [amount]`        |
+| Check Latency    | `?ping`                     | `/ping`                  |
 
-16 **To check ping/latency - ?ping or /ping**
+🕒 **Supported Mute Units:** `minutes`, `hours`, `days`, `weeks`, `months`
 
-17 **For any errors go to the bottom of the website - https://rhwongit.github.io/Schwarzapp.website/ and give a message**
+---
 
+## 🌐 Need Help?
 
+For bug reports or help, visit our support page:  
+🔗 [**SchwarzBot Website**](https://rhwongit.github.io/Schwarzapp.website/)  
+Scroll to the bottom of the page and leave us a message!
+
+---
+
+> 💡 *Want to contribute or customize? Fork this repo and build your own bot easily!*
